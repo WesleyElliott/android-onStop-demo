@@ -1,0 +1,48 @@
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+build/
+captures/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Android Studio
+.idea/
+.gradle
+/*/out
+/*/*/build
+/*/*/production
+*.iml
+*.iws
+*.ipr
+*~
+*.swp
+atlassian-ide-plugin.xml
+
+# Development files
+STTAndroid/src/mocked/res/values/third_party_keys.xml
+STTAndroid/src/debug/res/values/third_party_keys.xml
+STTAndroid/src/minify/res/values/third_party_keys.xml
+/*/local.properties
+
+# Mac
+.DS_Store
+
+# Crashlytics
+STTAndroid/src/main/assets/crashlytics-build.properties
+STTAndroid/src/main/res/values/com_crashlytics_export_strings.xml
+
+# Intermediate native files
+.externalNativeBuild
+ajcore*.txt
